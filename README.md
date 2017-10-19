@@ -15,6 +15,7 @@ Build it yourself:
 cd {directory of this repo}
 docker build .
 ```
+Comes out to a 5.333 MB docker.
 
 To test it, just hit the host (or loadbalancer, etc) on port 8080 via browser or curl.
 Enjoy!
