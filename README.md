@@ -13,6 +13,7 @@ docker run -p 8080:8080 --name helloip cthulu13/helloip
 Build it yourself:
 ```
 cd {directory of this repo}
+CGO_ENABLED=0 go build -a -ldflags '-s' helloip.go
 docker build .
 ```
 Comes out to a 5.333 MB docker.
