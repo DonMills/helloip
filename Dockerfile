@@ -1,4 +1,4 @@
 FROM scratch
 ADD ./helloip /helloip
-CMD ["/helloip"]
+ENTRYPOINT ["/helloip"]
 EXPOSE 8080
